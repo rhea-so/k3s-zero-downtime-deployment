@@ -5,44 +5,18 @@ Kubernetes에서 무중단 배포를 하는 방법
 ## Badges
 
 <!-- Badges -->
-[![CircleCI](https://circleci.com/gh/rhea-so/K3sZeroDowntimeDeployment/tree/main.svg?style=svg)](https://circleci.com/gh/rhea-so/K3sZeroDowntimeDeployment/tree/main)
 [![License](https://img.shields.io/github/license/rhea-so/K3sZeroDowntimeDeployment)](https://raw.githubusercontent.com/rhea-so/K3sZeroDowntimeDeployment/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/rhea-so/K3sZeroDowntimeDeployment)](https://github.com/rhea-so/K3sZeroDowntimeDeployment/issues)
 [![Pull Request](https://img.shields.io/github/issues-pr/rhea-so/K3sZeroDowntimeDeployment)](https://github.com/rhea-so/K3sZeroDowntimeDeployment/pulls)
 [![Stars](https://img.shields.io/github/stars/rhea-so/K3sZeroDowntimeDeployment)](https://github.com/rhea-so/K3sZeroDowntimeDeployment)
 
-## Usage
+## Documents
 
-[GitHub Template](https://velog.io/@bgm537/Github%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5-Template-repository-%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-fsjwpt0x00)
-
-## Configuration & Setup
-
-### Project Cloning
-
-```sh
-git clone https://github.com/rhea-so/K3sZeroDowntimeDeployment
-cd K3sZeroDowntimeDeployment
-npm config set registry https://npm.rhea-so.com/
-npm i
-```
-
-## Build 
-
-```sh
-tsc
-```
-
-## Test
-
-```sh
-npm test
-```
-
-### Get Test Coverage
-
-```sh
-npm run coverage
-```
+1. [왜 필요할까요](./document/01_WhyWeNeed.md)
+2. [모든 기존 서비스를 끄고 새 서비스를 켜는 방법](./document/02_ReCreate.md)
+3. [RollingUpdate](./document/03_RollingUpdate.md)
+4. [Blue Green Deploy](./document/04_BlueGreenRelease.md)
+5. [Canary Deploy](./document/05_CanaryRelease.md)
 
 ## Documentation
 
