@@ -13,10 +13,10 @@ Kubernetes에서 무중단 배포를 하는 방법
 ## Documents
 
 1. [왜 필요할까요](./document/01_WhyWeNeed.md)
-2. [모든 기존 서비스를 끄고 새 서비스를 켜는 방법](./document/02_ReCreate.md)
-3. [RollingUpdate](./document/03_RollingUpdate.md)
-4. [Blue Green Deploy](./document/04_BlueGreenRelease.md)
-5. [Canary Deploy](./document/05_CanaryRelease.md)
+2. [무중단 배포를 안 할 경우](./document/02_ReCreate.md)
+3. [롤링 배포](./document/03_RollingUpdate.md)
+4. [블루 그린 배포](./document/04_BlueGreenRelease.md)
+5. [카나리 배포](./document/05_CanaryRelease.md)
 
 ## Documentation
 
